@@ -6,6 +6,29 @@ This project has been developed in response to my first introduction to Object O
 ![music player app showing artworks](mp_demoGif.gif)
 
 ---
+### Dependencies at a glance
+
+- **Win32 API :** Microsoft's core set of application programming interfaces available in the Windows operating systems. 
+	- Required header files-
+		- Windows.h
+		- MMSystem.h 	 
+	- Required linker libraries-
+		- gdi32
+		- comdlg32
+		- oleaut32
+		- ole32
+		- uuid 
+
+- **WinBGIm Library :** A Windows based C++ **graphics library** based on the classic _Borland Graphics Interface_. Requirements
+	- Required header files-
+		- graphics.h
+		- winbgim.h
+		- MMSystem.h
+	- Required static link library file-
+		- libbgi.a	 	 
+	- Required linker library-
+		- bgi
+---
 ### Environment Setup
 
 
