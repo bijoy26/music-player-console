@@ -1,12 +1,15 @@
 # Music-Player-Console-Application-in-C++-
 An application to organize and play musical tracks along with corresponding artworks using **OOP** concepts and **Win32 API (Windows Multimedia).**
 
-This project has been developed in response to my first introduction to Object Oriented Programming course.The basic concept that has been implemented is just out of my curiousity and interest.I didn't have any knowledge of GUI by then so I did it in console.
+This mini (and understandably buggy) project has been developed in response to my first introduction to **Object Oriented Programming** course.
 
 ![music player app showing artworks](mp_demoGif.gif)
 
 ---
-### Dependencies at a glance
+### Dependencies at a glance 
+
+<details>	
+<summary>Click to expand dependency list</summary>
 
 - **Win32 API :** Microsoft's core set of application programming interfaces available in the Windows operating systems. 
 	- Required header files-
@@ -19,7 +22,7 @@ This project has been developed in response to my first introduction to Object O
 		- ole32
 		- uuid 
 
-- **WinBGIm Library :** A Windows based C++ **graphics library** based on the classic _Borland Graphics Interface_. Requirements
+- **WinBGIm Library :** A Windows based C++ **graphics library** based on the classic _Borland Graphics Interface_.
 	- Required header files-
 		- graphics.h
 		- winbgim.h
@@ -29,6 +32,9 @@ This project has been developed in response to my first introduction to Object O
 	- Required linker library-
 		- bgi
 ---
+
+</details>
+
 ### Environment Setup
 
 
@@ -59,5 +65,5 @@ In order to add a new track in the library, paste the track **(WAV format)** in 
 
 ##### NOTE: Added track title should be followed by 'wav' and cover art should be followed by 'jpg' extension.
 
-#### 3. The tracks are not playing properly.HELP!
+#### 3. The tracks are not playing properly. HELP!
 If the track doesn't play by itself, please uncomment (remove '//' characters) the `system("pause")` statement in **LINE 68** of _music player beta.cpp_ file.
