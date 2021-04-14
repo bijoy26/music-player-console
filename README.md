@@ -71,3 +71,9 @@ In order to add a new track in the library, paste the track **(WAV format)** in 
 
 #### 3. The tracks are not playing properly. HELP!
 If the track doesn't play by itself, please uncomment (remove '//' characters) the `system("pause")` statement in **LINE 68** of _music player beta.cpp_ file.
+
+---
+### Credits
+- Developed by-
+	- [Anjum Rashid (Lead)](https://github.com/bijoy26)
+	- Aparna Das
