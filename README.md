@@ -5,6 +5,7 @@ This project has been developed in response to my first introduction to Object O
 
 ![music player app showing artworks](mp_demoGif.gif)
 
+---
 ### Environment Setup
 
 
@@ -23,3 +24,17 @@ This project has been developed in response to my first introduction to Object O
    	- Under _other linker options_, paste the copied text
    	- Under _Link Libraries_, click <kbdAdd</kbd>,click browse and select `C:\Program Files (x86)\CodeBlocks\MinGW\lib`
 
+---
+
+### FAQ
+
+#### 1. What does **TrackInfo** file do?
+TrackInfo is a _CSV file_ that contains all the track information in the format "TRACK_NAME, ALBUM_NAME, ALBUM_COVER_TITLE"
+
+#### 2. How do I add my new track to the library?
+In order to add a new track in the library, paste the track **(WAV format)** in _Audio Library_ subfolder and Cover art **(JPG)** in _Album Covers_ subfolder, then add the track related information by pressing <kbd>option 6</kbd> in the program or directly editing the _TrackInfo_ text file.
+
+##### NOTE: Added track title should be followed by 'wav' and cover art should be followed by 'jpg' extension.
+
+#### 3. The tracks are not playing properly.HELP!
+If the track doesn't play by itself, please uncomment (remove '//' characters) the `system("pause")` statement in **LINE 68** of _music player beta.cpp_ file.
