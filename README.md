@@ -37,6 +37,9 @@ This mini (and understandably buggy) project has been developed in response to m
 
 ### Environment Setup
 
+<details>
+	
+<summary>Click to expand setup instructions</summary>
 
 - Import Headers  
     - From WinBGIm_GCC47 folder, copy _graphics_ and _winbgim_ header files, goto `C:\Program Files (x86)\CodeBlocks\MinGW\include` and paste them
@@ -54,7 +57,8 @@ This mini (and understandably buggy) project has been developed in response to m
    	- Under _Link Libraries_, click <kbdAdd</kbd>,click browse and select `C:\Program Files (x86)\CodeBlocks\MinGW\lib`
 
 ---
-
+</details>
+	
 ### FAQ
 
 #### 1. What does **TrackInfo** file do?
